@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+
+<body>
+    <section>
+        <div id="intro">
+            <h1>Hello There!</h1>
+            <p>Looks like you got the webserver up and running! Good job! Now it is time to
+                start answering questions.
+            </p>
+            <h2>Add a NickName!</h2>
+            <input id="nickname" placeholder="avatar name" />
+            <button id="startBtn">Choose Name</button>
+        </div>
+        <div id="game">
+            <img src="./image/quiz_09-512.png" width="200px" height="200px">
+            <p id="question"></p>
+            <input id="answer" autocomplete="off" autofocus placeholder="answer.." />
+            <button id="sendBtn">Send</button>
+            <br>
+            <section class="alternatives">
+                <button id="alt1"></button><button id="alt2"></button><br />
+                <button id="alt3"></button><button id="alt4"></button>
+            </section>
+            <div id="timerBox">
+                <h3 id='human'></h3>
+                <p id="timer"></p>
+            </div>
+        </div>
+        <div id='override'></div>
+    </section>
+
+    <script nomodule src="build.js"></script>
+</body>
+
+</html>

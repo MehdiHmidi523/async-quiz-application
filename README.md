@@ -1,2 +1,9 @@
-# async-quiz-application
-communication with an external RESTful web services through asynchronous calls. The backend (server-side code) is given and my job is to write the client-side code.
+## Examination assignment 2
+This is the assignment repo for the second assignment in the course. 
+
+## Installation
+Make sure node.js and npm is installed on your system.
+
+1. `npm install`
+2. `npm start`
+3. Browse to [http://localhost:4000](http://localhost:4000)

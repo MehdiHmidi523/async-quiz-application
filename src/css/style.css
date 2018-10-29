@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: whitesmoke
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+.hideThis{
+    visibility: hidden;
+}
+
+#question{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
